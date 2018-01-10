@@ -170,6 +170,10 @@ footer #footer-content p {
   .footer {
     width: 100%;
   }
+
+  .top-image {
+    height: 22rem;
+  }
 }
 
 
