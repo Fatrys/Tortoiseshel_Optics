@@ -54,6 +54,10 @@ html {
   word-wrap: none;
 }
 
+#breakpoint-appear {
+  display: none;
+}
+
 /* motto/top-image */
 
 .top-image .container #motto {
@@ -260,5 +264,13 @@ footer #footer-content p {
     text-align: center;
     width: 100%;
     margin-bottom: 1rem;
+  }
+
+  #breakpoint-appear {
+    display: auto;
+  }
+
+  #breakpoint-disappear {
+    display: none;
   }
 }
