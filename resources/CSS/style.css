@@ -180,5 +180,85 @@ footer #footer-content p {
 /* phone horizontal breakpoint */
 
 @media screen only and (max-width : 480px) {
+  .container {
+    width: 100%;
+  }
 
+  .top-image .header {
+    margin-top: 0px;
+  }
+
+  .top-image #motto {
+    margin-top: 9rem;
+    width: 100%;
+  }
+
+  .top-image #motto h2 {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .top-image {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  /*top-row */
+
+  .top-row {
+    display: flex;
+    flex-direction: column;
+    margin: 3.77rem auto;
+    width: 30rem;
+    height: 11rem;
+    justify-content: space-between;
+
+  }
+
+  .top-row .box {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+    margin-bottom: 1.54rem;
+  }
+
+  .top-row .box img {
+    width: 3.5rem;
+    height: auto;
+    align-self: center;
+  }
+
+  .top-row .box p {
+    font-size: 0.77rem;
+  }
+
+  .top-row .box .box-content {
+    margin: auto;
+  }
+
+ /* bottom-row */
+
+  .row-2 {
+    flex-direction: column;
+  }
+
+  .row-2 .info {
+    width: 100%;
+    text-align: left;
+    margin: auto 5%;
+    margin-bottom: 4rem;
+
+  }
+
+  .row-2 .info h3 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
