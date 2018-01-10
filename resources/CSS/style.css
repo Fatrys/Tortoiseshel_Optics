@@ -130,7 +130,6 @@ footer {
   width: 960px;
   margin: 0px auto;
   display: flex;
-
 }
 
 footer #footer-content {
@@ -144,5 +143,38 @@ footer #footer-content img {
 }
 
 footer #footer-content p {
+
+}
+
+/* tablet horizontal breakpoint */
+
+@media only screen and (max-width : 768) {
+  .container {
+    width: 100%;
+  }
+
+  .top-image .header {
+    margin-top: 0px;
+  }
+
+  .top-image #motto {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .top-image #motto h2 {
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
+
+
+/* phone horizontal breakpoint */
+
+@media screen only and (max-width : 480px) {
 
 }
